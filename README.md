@@ -50,7 +50,64 @@
       ```
     - Save
       
-- Enable WireGuard
+  - Enable WireGuard
+  
+- Interfaces - Assignments
+  - Assign a new interface
+    - Device
+      ```
+      {WireGuard interface}
+      ```
+    - Description
+      ```
+      WG0
+      ```
+    - Add
+    - Save
+      
+- Interfaces - WG0
+  - Enable interface
+  - Prevent interface removal
+  - Save
+  - Apply changes
+    
+- Firewall - Rules - WAN
+  - Add
+    - Action
+      ```
+      Pass
+      ```
+    - Interface
+      ```
+      WAN
+      ```
+    - Protocol
+      ```
+      UDP
+      ```
+    - Source
+      ```
+      any
+      ```
+    - Destination
+      ```
+      WAN Address
+      ```
+    - Destination port range
+      - from
+        ```
+        51820
+        ```
+      - to
+        ```
+        51820
+        ```
+    - Description
+      ```
+      Allow wireguard traffic
+      ```
+    - Save
+  - Apply changes
 
 
 
