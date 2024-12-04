@@ -145,9 +145,14 @@
       1380
       ```
     - Save
+  - Apply changes
       
 
 
 
 
-## WIREGUARD - CLIENT
+## WIREGUARD - CLIENT - OPNsense
+
+
+
+## WIREGUARD - CLIENT - Others
