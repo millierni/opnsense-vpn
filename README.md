@@ -152,7 +152,12 @@
 
 
 ## WIREGUARD - CLIENT - OPNsense
+- VPN - WireGuard - Peers
+  - Add
+    - Name
+      ```
+      WG1
+      ```
 
 
 
-## WIREGUARD - CLIENT - Others
