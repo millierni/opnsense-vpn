@@ -108,6 +108,44 @@
       ```
     - Save
   - Apply changes
+    
+- Firewall - WG0
+  - Add
+    - Action
+      ```
+      Pass
+      ```
+    - Interface
+      ```
+      WG0
+      ```
+    - Protocol
+      ```
+      any
+      ```
+    - Source
+      ```
+      WireGuard (Group) net
+      ```
+    - Destination
+      ```
+      any
+      ```
+    - Save
+  - Apply changes
+
+- Firewall - Settings - Normalization
+  - Add
+    - Interface
+      ```
+      WireGuard (Group)
+      ```
+    - Max mss
+      ```
+      1380
+      ```
+    - Save
+      
 
 
 
